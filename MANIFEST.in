@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-exclude reusable *.pyc
+recursive-include reusable_blogprj *.css
+recursive-include reusable_blogprj *.html
+recursive-include reusable_blogprj *.py

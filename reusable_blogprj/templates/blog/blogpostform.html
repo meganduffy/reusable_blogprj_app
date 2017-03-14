@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    {% load bootstrap_tags %}
+    <h1>New post</h1>
+    <form method="POST" enctype="multipart/form-data">
+{#        csrf_token is a security measure to prevent Cross Site Request Forgery#}
+        {%  csrf_token %}
+{#        form.as_p will render all form fields specified in BlogPostForm class#}
+{#        as_bootstrap implements the custom package django_forms_bootstrap#}
+        {{ form | as_bootstrap }}
+        <button type="submit" class="btn btn-info">Save</button>
+    </form>
+{% endblock %}
