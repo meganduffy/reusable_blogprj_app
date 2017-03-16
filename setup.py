@@ -30,7 +30,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        'Pillow',
+        'pillow==2.9.0',
         'django_forms_bootstrap',
         'django-disqus',
     ],
