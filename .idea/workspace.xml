@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb59081b-288a-4273-a963-8b40800782bd" name="Default" comment="fix on placeho">
+    <list default="true" id="fb59081b-288a-4273-a963-8b40800782bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" afterPath="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" afterPath="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogposts.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blogposts.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="476">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -68,8 +68,8 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/reusable_blogprj/models.py" />
         <option value="$PROJECT_DIR$/reusable_blogprj/urls.py" />
-        <option value="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" />
         <option value="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" />
+        <option value="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" />
       </list>
     </option>
   </component>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490806857505</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix on placeholder swapout">
+      <created>1490807172639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490807172639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -239,7 +246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add edit url and change requirements" />
     <MESSAGE value="swap placeholder for post.image if post.image" />
-    <option name="LAST_COMMIT_MESSAGE" value="swap placeholder for post.image if post.image" />
+    <MESSAGE value="fix on placeholder swapout" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix on placeholder swapout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -494,10 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html">
+    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -505,10 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html">
+    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="476">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
