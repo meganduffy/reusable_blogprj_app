@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb59081b-288a-4273-a963-8b40800782bd" name="Default" comment="swap placeholder for">
+    <list default="true" id="fb59081b-288a-4273-a963-8b40800782bd" name="Default" comment="fix on placeho">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reusable_blogprj/models.py" afterPath="$PROJECT_DIR$/reusable_blogprj/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" afterPath="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" afterPath="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" />
     </list>
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogposts.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blogposts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="postdetail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -69,8 +68,8 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/reusable_blogprj/models.py" />
         <option value="$PROJECT_DIR$/reusable_blogprj/urls.py" />
-        <option value="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" />
         <option value="$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html" />
+        <option value="$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html" />
       </list>
     </option>
   </component>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489664878634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="swap placeholder for post.image if post.image">
+      <created>1490806857505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490806857505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -232,7 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add edit url and change requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add edit url and change requirements" />
+    <MESSAGE value="swap placeholder for post.image if post.image" />
+    <option name="LAST_COMMIT_MESSAGE" value="swap placeholder for post.image if post.image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -244,7 +251,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -254,7 +261,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -264,7 +271,7 @@
         <state relative-caret-position="544">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -274,7 +281,7 @@
         <state relative-caret-position="374">
           <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
-            <element signature="e#199#231#0" expanded="true" />
+            <element signature="e#199#231#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -292,7 +299,7 @@
         <state relative-caret-position="170">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -302,7 +309,7 @@
         <state relative-caret-position="68">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -312,7 +319,7 @@
         <state relative-caret-position="527">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -322,7 +329,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#199#231#0" expanded="true" />
+            <element signature="e#199#231#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -340,7 +347,7 @@
         <state relative-caret-position="170">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -350,7 +357,7 @@
         <state relative-caret-position="68">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -360,7 +367,7 @@
         <state relative-caret-position="527">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -370,7 +377,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#199#231#0" expanded="true" />
+            <element signature="e#199#231#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -444,7 +451,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -454,7 +461,7 @@
         <state relative-caret-position="544">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -472,7 +479,7 @@
         <state relative-caret-position="374">
           <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
-            <element signature="e#199#231#0" expanded="true" />
+            <element signature="e#199#231#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -482,15 +489,15 @@
         <state relative-caret-position="435">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html">
+    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -498,10 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/blogposts.html">
+    <entry file="file://$PROJECT_DIR$/reusable_blogprj/templates/blog/postdetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
