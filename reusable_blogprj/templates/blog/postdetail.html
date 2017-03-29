@@ -8,7 +8,7 @@
                     {% if post.image %}
                         <img src="/media/{{ post.image }}" style="width:100px; height: 100px; background-color: #12ABB2; color: #ffffff;" class="img-circle">
                     {% else %}
-                        <img src="http://placehold.it/100" style="width:100px; height: 100px; background-color: #12ABB2; color: #ffffff;" class="img-circle">
+                        <div onclick="location.href={{ post.id }}" style="width:100px; height: 100px; background-color: #12ABB2; color: #ffffff;" class="img-circle"></div>
                     {% endif %}
                 </a>
             </div>
@@ -19,11 +19,12 @@
                         {% if post.image %}
                             <img src="/media/{{ post.image }}">
                         {% endif %}
-                        <p><strong>{{post.author}}</strong></p>
+                        <p><strong>Created by: {{post.author}}</strong></p>
                         <p>{{ post.content }}</p>
                         <p><button class="btn btn-default" onclick="location.href='/blog'">Back to Blog</button></p>
-
-                        <p><button class="btn btn-default" onclick="location.href='edit'">Edit</button></p>
+                        {% if post.author == user or user.is_staff %}
+                            <p><button class="btn btn-default" onclick="location.href='edit'">Edit</button></p>
+                        {% endif %}
                         <p>{{ post.published_date }} | Views {{ post.views }} | <strong>Tag</strong> {{ post.tag }}</p>
                         {% load disqus_tags %}
                         {% set_disqus_title post.title %}
