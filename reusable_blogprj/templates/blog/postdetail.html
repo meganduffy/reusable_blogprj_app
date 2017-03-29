@@ -19,8 +19,10 @@
                         {% if post.image %}
                             <img src="/media/{{ post.image }}">
                         {% endif %}
+                        <p><strong>{{post.user}}</strong></p>
                         <p>{{ post.content }}</p>
                         <p><button class="btn btn-default" onclick="location.href='/blog'">Back to Blog</button></p>
+
                         <p><button class="btn btn-default" onclick="location.href='edit'">Edit</button></p>
                         <p>{{ post.published_date }} | Views {{ post.views }} | <strong>Tag</strong> {{ post.tag }}</p>
                         {% load disqus_tags %}
