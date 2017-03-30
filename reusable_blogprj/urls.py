@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^top/$', views.top_five, name="top_five"),
     url(r'^post/$', views.new_post, name="new_post"),
     url(r'^(?P<id>\d+)/edit$', views.edit_post, name="edit"),
+    url(r'^(?P<id>\d+)/delete', views.delete_post, name="delete"),
 ]
