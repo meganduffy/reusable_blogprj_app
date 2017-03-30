@@ -13,6 +13,7 @@
                 </a>
             </div>
             <div class="col-md-10 col-sm-9">
+                <p><button class="btn btn-default" onclick="location.href='/blog'">Back to Blog</button></p>
                 <h3>{{ post.title }}</h3>
                 <div class="row">
                     <div class="col-xs-9">
@@ -22,9 +23,9 @@
                         <br>
                         <p><strong>Created by: {{post.author}}</strong></p>
                         <p>{{ post.content }}</p>
-                        <p><button class="btn btn-default" onclick="location.href='/blog'">Back to Blog</button></p>
                         {% if post.author == user or user.is_staff %}
                             <p><button class="btn btn-default" onclick="location.href='edit'">Edit</button></p>
+                            <p><button class="btn btn-danger" onclick="location.href='delete'">Delete</button></p>
                         {% endif %}
                         <p>{{ post.published_date }} | Views {{ post.views }} | <strong>Tag</strong> {{ post.tag }}</p>
                         {% load disqus_tags %}

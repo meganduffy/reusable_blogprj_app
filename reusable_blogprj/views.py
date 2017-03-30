@@ -3,6 +3,7 @@ from django.utils import timezone
 from django.shortcuts import redirect
 from .models import Post
 from .forms import BlogPostForm
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 
@@ -71,3 +72,13 @@ def edit_post(request, id):
     else:
         form = BlogPostForm(instance=post)
     return render(request, 'blog/blogpostform.html', {'form': form})
+
+
+@login_required(login_url='/login/')
+def delete_post(request, id):
+    post = get_object_or_404(Post, pk=id)
+    post.delete()
+
+    messages.success(request, "Your post was deleted")
+
+    return redirect(post_list)
